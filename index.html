@@ -3,31 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-
-<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
-<script>
-  window.googletag = window.googletag || {cmd: []};
-  googletag.cmd.push(function() {
-    googletag.defineSlot('/23205957545/TEST', [300, 300], 'div-gpt-ad-1730807189419-0').addService(googletag.pubads());
-    googletag.pubads().enableSingleRequest();
-    googletag.enableServices();
-  });
-</script>
 </head>
 <body>
     <header>
         <h1>Sample Site for Ad Testing</h1>
     </header>
     <main>
-        <section>
-            <h2>Banner Ad Test</h2>
-            <!-- /23205957545/TEST -->
-            <div id='div-gpt-ad-1730807189419-0' style='min-width: 300px; min-height: 300px;'>
-              <script>
-                googletag.cmd.push(function() { googletag.display('div-gpt-ad-1730807189419-0'); });
-              </script>
-            </div>
-        </section>
+       <?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:dfpvideo="http://api.google.com/dfpvideo"
+     xmlns:tms="http://data.tmsapi.com/v1.1"
+     version="2.0">
+  <channel>
+    <title>Sample video</title>
+    <dfpvideo:version>2</dfpvideo:version>
+    <atom:link rel="next" href="http://www.feedprovider.com/video/vids?page3"/>
+    <item>
+      <pubDate>Fri, 12 Nov 2016 18:19:10 +0000</pubDate>
+      <title>Bunny.mov</title>
+      <dfpvideo:keyvalues key="episode" value="5" type="int"/>
+      <dfpvideo:keyvalues key="season" value="2" type="int"/>
+      <dfpvideo:keyvalues key="title" value="Example Title" type="string"/>
+      <media:thumbnail
+        url="https://upload.wikimedia.org/wikipedia/commons/a/a7/Big_Buck_Bunny_thumbnail_vlc.png"
+        width="280"
+        height="190"/>
+      <media:content duration="39" url="http://www.feedprovider.com/video?8eqe7e"/>
+      <dfpvideo:contentId>video1</dfpvideo:contentId>
+      <dfpvideo:lastModifiedDate>Fri, 12 Nov 2016 18:19:10 +0000</dfpvideo:lastModifiedDate>
+      <dfpvideo:lastMediaModifiedDate>Fri, 12 Nov 2016 18:19:10 +0000</dfpvideo:lastMediaModifiedDate>
+      <dfpvideo:cuepoints>10</dfpvideo:cuepoints>
+      <dfpvideo:ingestUrl type="application/x-mpegURL" preconditioned="true">
+        https://storage.googleapis.com/dfp-support/dfpdai/BigBuckBunny-hls/playlist.m3u8
+      </dfpvideo:ingestUrl>
+    </item>
+  </channel>
+</rss>
     </main>
     <footer>
         <p>&copy; 2024 Ad Testing Site</p>
